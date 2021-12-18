@@ -190,9 +190,8 @@ def remove_columns_corr(dataset, threshold) -> pd.DataFrame:
 
 def print_evaluate(true, predicted) -> None:
     """
-     print_evaluate does blah blah blah.
-
-     :param true: describe about parameter p1
+     print evaluate print the values of the indicators to the regression model
+     :param true: the ture values (y_test)
      :param predicted: what the model think the results are
      :return: describe what it returns
      """
